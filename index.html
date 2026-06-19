@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Nugi Hosting | Solusi Hosting Terpercaya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-server"></i>
+                    <span>Nugi Hosting</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hosting Berkualitas Tinggi dengan Harga Terjangkau</h1>
+                <p>Solusi hosting terpercaya untuk website Anda dengan performa maksimal dan dukungan 24/7</p>
+                <button class="btn btn-primary" onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">
+                    Lihat Paket
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="pricing-header">
+                <h2>Pilih Paket Yang Sesuai</h2>
+                <p>Skalabilitas tanpa batas untuk bisnis Anda</p>
+                
+                <!-- Toggle Button -->
+                <div class="pricing-toggle">
+                    <span class="toggle-label">Bulanan</span>
+                    <label class="switch">
+                        <input type="checkbox" id="priceToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-label">Tahunan</span>
+                    <span class="save-badge">Hemat 20%</span>
+                </div>
+            </div>
+
+            <!-- Pricing Cards -->
+            <div class="pricing-cards">
+                <!-- Paket Starter -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Starter</h3>
+                        <p class="description">Sempurna untuk pemula</p>
+                    </div>
+                    <div class="price-box">
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount monthly-price">49.999</span>
+                            <span class="amount yearly-price" style="display: none;">499.999</span>
+                            <span class="period">/bulan</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 10 GB Storage</li>
+                        <li><i class="fas fa-check"></i> Unlimited Bandwidth</li>
+                        <li><i class="fas fa-check"></i> 1 Domain Gratis</li>
+                        <li><i class="fas fa-check"></i> Email Hosting (10 akun)</li>
+                        <li><i class="fas fa-check"></i> SSL Certificate</li>
+                        <li><i class="fas fa-check"></i> Uptime 99.5%</li>
+                        <li><i class="fas fa-times"></i> CDN Global</li>
+                    </ul>
+                    <button class="btn btn-outline">Pilih Paket</button>
+                </div>
+
+                <!-- Paket Professional -->
+                <div class="pricing-card featured">
+                    <div class="badge">POPULER</div>
+                    <div class="card-header">
+                        <h3>Professional</h3>
+                        <p class="description">Untuk bisnis berkembang</p>
+                    </div>
+                    <div class="price-box">
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount monthly-price">149.999</span>
+                            <span class="amount yearly-price" style="display: none;">1.499.999</span>
+                            <span class="period">/bulan</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 100 GB Storage</li>
+                        <li><i class="fas fa-check"></i> Unlimited Bandwidth</li>
+                        <li><i class="fas fa-check"></i> 5 Domain Gratis</li>
+                        <li><i class="fas fa-check"></i> Email Hosting (50 akun)</li>
+                        <li><i class="fas fa-check"></i> SSL Certificate</li>
+                        <li><i class="fas fa-check"></i> Uptime 99.9%</li>
+                        <li><i class="fas fa-check"></i> CDN Global</li>
+                    </ul>
+                    <button class="btn btn-primary">Pilih Paket</button>
+                </div>
+
+                <!-- Paket Enterprise -->
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Enterprise</h3>
+                        <p class="description">Untuk skala besar</p>
+                    </div>
+                    <div class="price-box">
+                        <div class="price">
+                            <span class="currency">Rp</span>
+                            <span class="amount monthly-price">499.999</span>
+                            <span class="amount yearly-price" style="display: none;">4.999.999</span>
+                            <span class="period">/bulan</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 500 GB Storage</li>
+                        <li><i class="fas fa-check"></i> Unlimited Bandwidth</li>
+                        <li><i class="fas fa-check"></i> Unlimited Domain</li>
+                        <li><i class="fas fa-check"></i> Email Hosting (Unlimited)</li>
+                        <li><i class="fas fa-check"></i> SSL Certificate (Unlimited)</li>
+                        <li><i class="fas fa-check"></i> Uptime 99.99%</li>
+                        <li><i class="fas fa-check"></i> CDN Global + Dedicated Server</li>
+                    </ul>
+                    <button class="btn btn-outline">Pilih Paket</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Fitur Unggulan Kami</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Performa Tinggi</h3>
+                    <p>Server SSD dengan teknologi terkini untuk kecepatan maksimal</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Keamanan Terjamin</h3>
+                    <p>Perlindungan DDoS, firewall canggih, dan backup otomatis</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support 24/7</h3>
+                    <p>Tim support responsif siap membantu Anda kapan saja</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Scalability</h3>
+                    <p>Upgrade resources kapan saja tanpa downtime</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Developer Friendly</h3>
+                    <p>Support PHP, Node.js, Python, dan banyak lagi</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-money-bill-alt"></i>
+                    </div>
+                    <h3>Harga Kompetitif</h3>
+                    <p>Garansi uang kembali 30 hari tanpa pertanyaan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison">
+        <div class="container">
+            <h2>Perbandingan Fitur Lengkap</h2>
+            <div class="table-responsive">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Fitur</th>
+                            <th>Starter</th>
+                            <th>Professional</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Disk Space</strong></td>
+                            <td>10 GB</td>
+                            <td>100 GB</td>
+                            <td>500 GB</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bandwidth</strong></td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Domain</strong></td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sub Domain</strong></td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Email Account</strong></td>
+                            <td>10</td>
+                            <td>50</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Database</strong></td>
+                            <td>10</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>SSL Certificate</strong></td>
+                            <td>1</td>
+                            <td>Unlimited</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Backup Harian</strong></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><strong>CDN Global</strong></td>
+                            <td><i class="fas fa-times" style="color: #f44336;"></i></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dedicated IP</strong></td>
+                            <td><i class="fas fa-times" style="color: #f44336;"></i></td>
+                            <td>Optional</td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Priority Support</strong></td>
+                            <td><i class="fas fa-times" style="color: #f44336;"></i></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                            <td><i class="fas fa-check" style="color: #4CAF50;"></i></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Uptime SLA</strong></td>
+                            <td>99.5%</td>
+                            <td>99.9%</td>
+                            <td>99.99%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Kepuasan Klien Kami</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Nugi Hosting memberikan pelayanan terbaik. Server sangat stabil dan support team sangat membantu!"</p>
+                    <div class="testimonial-author">
+                        <strong>Budi Santoso</strong>
+                        <span>CEO PT. Teknologi Maju</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Harga sangat kompetitif dengan kualitas yang tidak tertandingi. Sudah 3 tahun bersama Nugi Hosting!"</p>
+                    <div class="testimonial-author">
+                        <strong>Siti Nurhaliza</strong>
+                        <span>Founder Digital Marketing Agency</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Migrasi dari hosting lain sangat mudah. Tim Nugi Hosting membantu dari awal sampai akhir tanpa biaya tambahan."</p>
+                    <div class="testimonial-author">
+                        <strong>Ahmad Wijaya</strong>
+                        <span>Developer Freelance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Pertanyaan Umum</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Apakah ada jaminan uptime?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya, kami menjamin uptime 99.5% hingga 99.99% tergantung paket yang Anda pilih. Jika tidak memenuhi SLA, kami akan memberikan kredit gratis.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Bisakah saya upgrade atau downgrade paket?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tentu saja! Anda bisa upgrade atau downgrade kapan saja tanpa penalti. Harga akan disesuaikan secara pro-rata.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Bagaimana proses migrasi dari hosting lain?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tim kami akan membantu proses migrasi gratis tanpa downtime. Anda hanya perlu memberikan akses ke hosting lama Anda.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Apa saja metode pembayaran yang tersedia?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kami menerima transfer bank, e-wallet (GoPay, OVO, Dana), dan kartu kredit. Cicilan juga tersedia untuk paket tahunan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Siap Memulai?</h2>
+            <p>Dapatkan diskon 30% untuk pelanggan baru dengan menggunakan kode promo: <strong>NUGIDISKON30</strong></p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary btn-large">Beli Sekarang</button>
+                <button class="btn btn-outline btn-large">Hubungi Kami</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Nugi Hosting</h4>
+                    <p>Solusi hosting terpercaya dengan dukungan 24/7 untuk kesuksesan bisnis digital Anda.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nugi Hosting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
